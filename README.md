@@ -1,74 +1,108 @@
-Zomato Restaurant Data Analysis
-Overview
+🍽️ Zomato Restaurant Data Analysis Overview
 
-This project performs exploratory data analysis (EDA) on a dataset of Zomato restaurant listings. The goal is to extract useful business insights and trends from restaurant and cuisine data collected across multiple countries. By analyzing features like ratings, cuisines, and price ranges, the analysis uncovers patterns that can inform restaurant owners, food enthusiasts, and businesses.
+This project performs Exploratory Data Analysis (EDA) 🧠 on a dataset of Zomato restaurant listings.
+The goal is to extract useful business insights and trends from restaurant and cuisine data collected across multiple countries 🌍.
+By analyzing features like ratings ⭐, cuisines 🍜, and price ranges 💰, the analysis uncovers patterns that can inform restaurant owners, food enthusiasts, and businesses.
 
-Dataset Description
+📂 Dataset Description
 
 The analysis uses two datasets:
 
-zomato.csv – A comprehensive dataset of Zomato restaurant information, including fields such as Restaurant Name, City, Locality, Cuisines, Average Cost for Two, Currency, Table Booking Availability, Online Delivery, Price Range, Ratings, and Votes.
+zomato.csv – A comprehensive dataset of Zomato restaurant information, including fields such as:
 
-Country-Code.xlsx – A reference table mapping numeric country codes to country names, allowing interpretation of country-specific insights.
+🏪 Restaurant Name
 
-Together, these datasets cover restaurant data from multiple countries, enabling comparisons of culinary trends and rating distributions globally.
+🏙️ City
 
-Key Features
+📍 Locality
+
+🍲 Cuisines
+
+💵 Average Cost for Two
+
+💱 Currency
+
+🪑 Table Booking Availability
+
+🚴 Online Delivery
+
+💸 Price Range
+
+⭐ Ratings
+
+🗳️ Votes
+
+Country-Code.xlsx – A reference table mapping numeric country codes to country names, allowing country-specific insights 🌎.
+
+🧩 Together, these datasets provide a global view of restaurant trends, enabling rich comparisons of cuisines, ratings, and cost patterns across countries.
+
+🔍 Key Features & Insights
 
 The analysis highlights several interesting findings, such as:
 
-Top Cuisines: Identify the most popular and highest-rated cuisines overall and within each country.
+🍛 Top Cuisines: Discover the most popular and highest-rated cuisines overall and by country.
+🌐 Country-wise Ratings: Compare average restaurant ratings across countries to reveal customer satisfaction trends.
+🏙️ Location Insights: Identify top-performing cities/localities with the highest restaurant density and ratings.
+💸 Price vs Rating: Analyze how restaurant cost correlates with customer ratings.
+📦 Delivery & Booking Trends: Examine how online delivery and table booking options affect popularity and ratings.
 
-Country-wise Ratings: Compare average restaurant ratings across different countries to spot regional differences in customer satisfaction.
+✨ These findings provide actionable insights for restaurateurs, marketers, and data enthusiasts alike.
 
-Location Insights: Highlight top cities or localities with the highest number of restaurants and highest average ratings.
+🛠️ Technologies Used
+Tool	Purpose
+🐍 Python 3	Core programming language
+🧾 Pandas	Data cleaning and manipulation
+📊 Matplotlib	Visual data plotting
+🎨 Seaborn	Advanced statistical visualizations
+📘 Jupyter Notebook	Interactive environment for running analysis
+🚀 How to Run the Project
 
-Price vs. Rating: Explore the relationship between price range (average cost for two) and restaurant ratings.
+Clone the Repository
 
-Delivery & Booking Trends: Analyze how online delivery and table booking availability relate to restaurant popularity.
+git clone <repository_link>
 
-These features help illustrate key trends and business insights drawn from the Zomato data.
 
-Technologies Used
+Install Dependencies
+Make sure Python 3 is installed. Then run:
 
-Python 3 – Programming language for data analysis.
+pip install pandas matplotlib seaborn
 
-Pandas – Data manipulation and analysis.
 
-Matplotlib – Plotting library for data visualizations.
+Load Data
+Ensure both zomato.csv and Country-Code.xlsx are in the working directory.
 
-Seaborn – Statistical data visualization library.
+Run the Analysis
+Open zomato.ipynb in Jupyter Notebook or JupyterLab and execute each cell to reproduce the analysis.
 
-Jupyter Notebook – Interactive environment for running the analysis.
+✅ No external downloads are needed — all data is included.
 
-How to Run
+📈 Visuals & Charts
 
-Clone the repository: Download or clone this repository to your local machine.
+The project includes multiple visualizations to make insights more intuitive:
 
-Install dependencies: Ensure you have Python 3 installed. Install required libraries using pip install pandas matplotlib seaborn.
+📊 Bar & Pie Charts – Distribution of cuisines, ratings, and restaurant counts
 
-Load data: The zomato.csv and Country-Code.xlsx files are included in this repository. Load these files into the Jupyter Notebook.
+🌡️ Heatmaps – Rating vs. Price comparison across countries
 
-Run the analysis: Open zomato.ipynb in Jupyter Notebook or JupyterLab and run the cells to reproduce the analysis.
+🔘 Scatter Plots – Correlation between cost and ratings
 
-No additional data downloads are needed, as all datasets are provided in the repository.
+These visuals make trends clear, engaging, and data-driven 💡.
 
-Visuals
+🏁 Conclusion
 
-The analysis includes various charts and graphs to help interpret the data, such as:
+This analysis provides a comprehensive overview of restaurant trends in the Zomato dataset 🍕.
+It reveals:
 
-Bar charts and pie charts showing the distribution of cuisines and restaurant ratings.
+Which cuisines earn higher ratings 🌮
 
-Heatmaps comparing ratings and price ranges across countries.
+How dining preferences differ by country 🗺️
 
-Scatter plots illustrating relationships (e.g., cost vs. ratings).
+How pricing and availability affect customer experience 💬
 
-These visuals make it easier to spot trends and support the insights drawn from the analysis.
+📈 These insights empower better business decisions, from menu planning to market expansion strategies.
 
-Conclusion
+✍️ Author & Credits
 
-This analysis provides a clearer view of the restaurant landscape in the Zomato dataset. For example, the findings show which cuisines tend to receive higher ratings and how dining preferences vary by country. These insights can guide strategic decisions, such as menu planning or market expansion.
+👩‍💻 Author: Shriyam Pandey
+📧 [Your email or GitHub link if you’d like to include it]
 
-Author & Credits
-
-Author: Shriyam Pandey
