@@ -104,5 +104,6 @@ How pricing and availability affect customer experience 💬
 ✍️ Author & Credits
 
 👩‍💻 Author: Shriyam Pandey
-📧 [Your email or GitHub link if you’d like to include it]
+
+📧 shriyam.24b15310185@abes.ac.in
 
